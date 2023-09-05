@@ -154,7 +154,7 @@ will not use the command line you intended it to use.
 
 如果 Pod 行为不符合预期，很可能 Pod 描述（例如你本地机器上的 `mypod.yaml`）中有问题，
 并且该错误在创建 Pod 时被忽略掉，没有报错。
-通常，Pod 的定义中节区嵌套关系错误、字段名字拼错的情况都会引起对应内容被忽略掉。
+通常，Pod 的定义中截取嵌套关系错误、字段名字拼错的情况都会引起对应内容被忽略掉。
 例如，如果你误将 `command` 写成 `commnd`，Pod 虽然可以创建，
 但它不会执行你期望它执行的命令行。
 
